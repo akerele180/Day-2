@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@100;300;400&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Exo', sans-serif;
+}
+body h1{
+    text-align: center;
+    background-image:url("images/bg-curve-desktop.svg");
+    background-color: darkslategray;
+    max-width: 1440px;
+}
+div.other {
+    margin:20px;
+    text-align: center;
+}
+.form{
+    align-items: center;
+    background-image: linear-gradient(to bottom right, darkslategray, darkgrey);
+    background-color: darkgrey;
+    margin-left:200px;
+    margin-right:120px;
+    color:white;
+}
+h3 {
+    text-align: center;
+}
+.attribution { font-size: 11px; text-align: center; margin-left: 450px; }
+.attribution a { color: hsl(228, 45%, 44%); }
+@viewport {
+    zoom: 1.0;
+    width: extend-to-width; 
+}
+@-ms-viewport {
+    zoom: 1.0;
+    width: extend-to-width; 
+}
