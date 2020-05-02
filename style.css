@@ -26,8 +26,19 @@ div.other {
 h3 {
     text-align: center;
 }
-.attribution { font-size: 11px; text-align: center; margin-left: 450px; }
+.attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
+h1 {
+    min-height: 40px;
+}
+.other {
+    min-height:400px
+    margin-top 3%;
+}
+footer {
+    min-height: 100px;
+    margin-top: 3%;
+}
 @viewport {
     zoom: 1.0;
     width: extend-to-width; 
