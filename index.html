@@ -12,7 +12,7 @@
     <div class="other">
         <h3>Kindly provide the following information to help us serve you better.</h3><br>
         <div class="form">
-            <form>
+            <form> 
                 <br><p>NAME: <input type:"text" name="text" required></p><br>
                 <p>EMAIL: <input type:"text" name="text"  required></p><br>
                 <p>AGE: <input type:"number" name="text" required></p><br><br>
@@ -22,7 +22,7 @@
                 <input type="radio" id="female" name="sex" value="female">
                 <label for="female">FEMALE</label><br>
                 <br><h5>CHOOSE YOUR FACULTY</h5>
-                <select name="Faculties"><br>
+                <select name="Faculties" required><br>
                     <option value="arts">FACULTY OF ARTS</option>
                     <option value="medical">FACULTY OF BASIC MEDICAL SCIENCE</option>
                     <option value="management sci">FACULTY OF MANAGEMENT SCIENCE</option>
@@ -37,7 +37,7 @@
                     <option value="pharmacy">FACULTY OF PHARMACY</option>
                 </select><br>
                 <br><h5>WHAT DEPARTMENT?</h5>
-                <input type:"text"><br>
+                <input type:"text" required><br>
                 <br><h5>LEVEL</h5>
                 <input type="radio" id="100" name="level" value="100">
                 <label for="100">100</label><br>
@@ -51,10 +51,13 @@
                 <label for="female">500</label><br>
             </form>
             <footer>
-                <p class="attribution"><br><br>
-                  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+                <form class='end'>
+                    <input type="submit" value="SUBMIT" name="submit">
+                </form>
+                <p class="attribution"><br>
+                  Challenge by <a href="https://30daysofcode.xyz/" target="_blank">30DaysOfCode</a>. 
                   Coded by <a href="#">Akerele, Tosin J.</a>.
-                </p><br>
+                </p>
             </footer>
 
         </div>
