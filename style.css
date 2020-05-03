@@ -48,7 +48,7 @@ footer {
         margin: 0 auto;
     }
 }
-@media screen and (max-width:500px){
+@media screen and (min-width:500px){
     .form {
         max-width: 268px;
         margin:0 auto;
